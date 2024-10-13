@@ -1,3 +1,4 @@
+
 import numpy as np
 
 *Crear un arreglo de NumPy*
