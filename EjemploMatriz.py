@@ -1,7 +1,7 @@
 import numpy as np
 
 # Crear una matriz de NumPy
-matriz = np.array([[1, 2], [3, 4]])
+matriz = np.array([[1, 2],[3, 4]])
 
 # Mostrar la matriz
 print("Matriz original:")
