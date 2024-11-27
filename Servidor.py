@@ -1,16 +1,16 @@
 import socket
 
-Crear un socket
+# Crear un socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 
 server_address = ('localhost', 8080)
 print(f"Iniciando servidor en {server_address[0]}:{server_address[1]}")
 
-Enlazar el socket con la dirección y el puerto
+# Enlazar el socket con la dirección y el puerto
 server_socket.bind(server_address)
 
-Escuchar conexiones entrantes
+# Escuchar conexiones entrantes
 server_socket.listen(1)
 print("Esperando conexiones...")
 
@@ -30,5 +30,5 @@ while True:
     # Cerrar la conexión
     connection.close()
     print("Conexión cerrada")
-```
+
 
