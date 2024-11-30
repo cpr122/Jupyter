@@ -1,6 +1,4 @@
-¡Claro! Aquí tienes un ejemplo sencillo de un formulario en Python utilizando la biblioteca `tkinter` para crear una interfaz gráfica. Este formulario recogerá el nombre y el correo electrónico del usuario y mostrará un mensaje al enviar.
 
-```python
 import tkinter as tk
 from tkinter import messagebox
 
