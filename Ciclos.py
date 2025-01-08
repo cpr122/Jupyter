@@ -1,17 +1,5 @@
 
-### Ciclo `for`
 
-frutas = ["manzana", "banana", "naranja"]
-for fruta in frutas:
-    print(fruta)
-
-### Ciclo `while`
-
-contador = 0
-while contador < 5:
-    print(contador)
-    contador += 1
-```
 
 Este código imprimirá los números del 0 al 4.
 
